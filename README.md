@@ -1,7 +1,7 @@
-##Desarrollando con Symfony
-###Desarrollo de Software usando el framwwork PHP: Symfony
+## Desarrollando con Symfony
+### Desarrollo de Software usando el framwwork PHP: Symfony
 
-####0. Preparación para trabajar con Symfony:
+#### 0. Preparación para trabajar con Symfony:
 
 1. Instalar **Xamp** (Entorno de Desarrollo: Apache + MariaDB + PHP + Perl)
 	Windows - IOS - Linux: https://www.apachefriends.org/es/download.html
@@ -31,7 +31,7 @@ Windows:
 		* mailer password? "press enter" (por defecto)
 		* Token? "press enter" (por defecto)
 
-####Empezando con Symfony: Crear un Bundle ("paquete" o plugin)
+#### 1. Empezando con Symfony: Crear un Bundle ("paquete" o plugin)
 1. Crear un bundle por consola:
 	~~~
 	php app/console generate:bundle
