@@ -1,4 +1,4 @@
-#Desarrollando con Symfony
+##Desarrollando con Symfony
 ###Desarrollo de Software usando el framwwork PHP: Symfony
 
 ####0. Preparación para trabajar con Symfony:
