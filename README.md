@@ -17,7 +17,7 @@
 		</td>
 		<td>
 			2. Instalar **Composer**: https://getcomposer.org/
-			"Librería que gestiona las dependencias de los proyectos PHP"
+			_"Librería que gestiona las dependencias de los proyectos PHP"_
 			Linux / Unix / OSX: Comandos en: https://getcomposer.org/download/
 			Windows:
 			    1 - Descargar instalador y ejecutar.
