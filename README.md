@@ -20,27 +20,27 @@ Windows:
 	~~~
 	composer create-project symfony/framework-standard-edition my_project_name "2.8.*
 	~~~
-    - Database? "press enter" (por defecto)
-	- Database Port? "press enter" (por defecto)
-	- Database Name? "Puesto por el usuario" ("nombre_del_proyecto")
-	- Root? "press enter" (por defecto)
-	- Password? "press enter" (por defecto)
-	- smtp? "press enter" (por defecto)
-	- mailer host? "press enter" (por defecto)
-	- mailer usar? "press enter" (por defecto)
-	- mailer password? "press enter" (por defecto)
-	- Token? "press enter" (por defecto)
+    + Database? "press enter" (por defecto)
+	+ Database Port? "press enter" (por defecto)
+	+ Database Name? "Puesto por el usuario" ("nombre_del_proyecto")
+	+ Root? "press enter" (por defecto)
+	+ Password? "press enter" (por defecto)
+	+ smtp? "press enter" (por defecto)
+	+ mailer host? "press enter" (por defecto)
+	+ mailer usar? "press enter" (por defecto)
+	+ mailer password? "press enter" (por defecto)
+	+ Token? "press enter" (por defecto)
 
 #### 1. Empezando con Symfony: Crear un Bundle ("paquete" o plugin)
 1. Crear un bundle por consola:
 	~~~
 	php app/console generate:bundle
 	~~~
-	- Varias aplicaciones? "press enter" (por defecto no)
-	- Nombre: version\nombreBundle
-	- Nombre corto: nombrecortoBundle
-	- Estructuras de Directorio: "press enter" (por defecto)
-	- Formato de Configuración Rutas: YML
+	+ Varias aplicaciones? "press enter" (por defecto no)
+	+ Nombre: version\nombreBundle
+	+ Nombre corto: nombrecortoBundle
+	+ Estructuras de Directorio: "press enter" (por defecto)
+	+ Formato de Configuración Rutas: YML
 
 Recomendación: Vaciar la cache: php app/console cache:clear --env=prod --no-debug
 
