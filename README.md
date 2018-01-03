@@ -11,7 +11,7 @@
 			<div
 				<a href="https://www.apachefriends.org/es/index.html" target="_blank">
 					<img src="https://d16zszyyqlzz6z.cloudfront.net/images/xampp-logo-ac950edf.svg" width="150">
-					<br><p>Composer</p>
+					<br><p>Xamp</p>
 				</a>
 			</div>
 		</td>
@@ -46,13 +46,16 @@
 	</tr>
 </table>
 
-3. Instalar Symfony por consola (by Composer): https://symfony.com/download
+3. Instalar Symfony por consola (by Composer): https://symfony.com/download  
+
     1 - Ir a la rut (Path): "C:\xampp\htdocs\Symfony"
-    2 - Escribir comando: _(La versión usada es la 2.8)_
+    2 - Escribir comando: _(La versión usada es la 2.8)_  
+
 	~~~
 	composer create-project symfony/framework-standard-edition my_project_name "2.8.*
 	~~~
-    + Database? "press enter" (por defecto)
+  
+  + Database? "press enter" (por defecto)
 	+ Database Port? "press enter" (por defecto)
 	+ Database Name? "Puesto por el usuario" ("nombre_del_proyecto")
 	+ Root? "press enter" (por defecto)
