@@ -48,13 +48,15 @@
 
 3. Instalar Symfony por consola (by Composer): https://symfony.com/download  
 
-    1 - Ir a la rut (Path): "C:\xampp\htdocs\Symfony"
-    2 - Escribir comando: _(La versión usada es la 2.8)_  
+    1 - Ir a la ruta en la consola (Path): "C:\xampp\htdocs\"
+
+    2 - Escribir comando:_(La versión usada es la 2.8)_  
 
 	~~~
 	composer create-project symfony/framework-standard-edition my_project_name "2.8.*
 	~~~
   
+~~~
   + Database? "press enter" (por defecto)
 	+ Database Port? "press enter" (por defecto)
 	+ Database Name? "Puesto por el usuario" ("nombre_del_proyecto")
@@ -65,12 +67,13 @@
 	+ mailer usar? "press enter" (por defecto)
 	+ mailer password? "press enter" (por defecto)
 	+ Token? "press enter" (por defecto)
+~~~
 
 #### 1. Empezando con Symfony: Crear un Bundle ("paquete" o plugin)
-1. Crear un bundle por consola:
-	~~~
-	php app/console generate:bundle
-	~~~
+1. Crear un bundle por consola:  
+~~~
+php app/console generate:bundle
+~~~
 	+ Varias aplicaciones? "press enter" (por defecto no)
 	+ Nombre: version\nombreBundle
 	+ Nombre corto: nombrecortoBundle
@@ -80,13 +83,19 @@
 Recomendación: Vaciar la cache: php app/console cache:clear --env=prod --no-debug
 
 
-Help:
+Help:  
+
 http://symfony.com/doc/2.4/book/index.html
 
-Spanish
+Spanish:  
+
 http://librosweb.es/libro/composer/
 https://librosweb.es/libro/symfony_2_x/
 
-GtiHub Symfony:
-https://github.com/symfony
-Gestionar Proyecto con GitHub: http://symfony.com/doc/2.3/cookbook/workflow/new_project_git.html
+GtiHub Symfony:  
+
+https://github.com/symfony  
+
+Gestionar Proyecto con GitHub:  
+
+http://symfony.com/doc/2.3/cookbook/workflow/new_project_git.html
