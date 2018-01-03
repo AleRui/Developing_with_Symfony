@@ -3,9 +3,25 @@
 
 #### 0. Preparación para trabajar con Symfony:
 
-1. Instalar **Xamp** (Entorno de Desarrollo: Apache + MariaDB + PHP + Perl)
-	Windows - IOS - Linux: https://www.apachefriends.org/es/download.html
+
+
 <table>
+	<tr>
+		<td>
+			<div
+				<a href="https://www.apachefriends.org/es/index.html" target="_blank">
+					<img src="https://d16zszyyqlzz6z.cloudfront.net/images/xampp-logo-ac950edf.svg" width="150">
+					<br><p>Composer</p>
+				</a>
+			</div>
+		</td>
+		<td>
+			<div>
+				1. Instalar <b>Xamp</b> (Entorno de Desarrollo: Apache + MariaDB + PHP + Perl)<br>
+				Windows - IOS - Linux: https://www.apachefriends.org/es/download.html
+    	</div>
+    </td>
+	</tr>
 	<tr>
 		<td>
 			<div
@@ -20,10 +36,11 @@
 				2. Instalar <b>Composer</b>: https://getcomposer.org/<br>
 				<i>"Librería que gestiona las dependencias de los proyectos PHP"</i><br>
 				Linux / Unix / OSX: Comandos en: https://getcomposer.org/download/<br>
-				<ul>Windows:
-				    <li>1 - Descargar instalador y ejecutar.</li>
-				    <li>2 - Buscar carpeta de xamp donde está php y seleccionar: php.exe</li>
-				    <li>3 - Comprobar instalación: Abrir Consola y ejecutar: "composer".</li>
+					<ul>Windows:
+					    <li>1 - Descargar instalador y ejecutar.</li>
+					    <li>2 - Buscar carpeta de xamp donde está php y seleccionar: php.exe</li>
+					    <li>3 - Comprobar instalación: Abrir Consola y ejecutar: "composer".</li>
+					</ul>
     	</div>
     </td>
 	</tr>
