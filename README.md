@@ -89,12 +89,13 @@ Vaciar la cache: php app/console cache:clear --env=prod --no-debug
 ~~~
 
 #### 2. Estructura de Directorios (taxonomía de un Bundle)
-    **app/**: contiene la configuración de la aplicación.
-    **bin/**: ayuda con el Debugging.
-    **test/**: contiene una muestra.
-    **src/**: aquí se encuentra todo el código PHP de la aplicación (aquí es donde más trabajaremos).
-    **vendor/**: por convención aquí se guardan todas las librerías creadas por terceros.
-    **web/**: este es el directorio web raíz y contiene todos los archivos que se pueden acceder públicamente.
+
++ **app/**: contiene la configuración de la aplicación.
++ **bin/**: ayuda con el Debugging.
++ **test/**: contiene una muestra.
++ **src/**: aquí se encuentra todo el código PHP de la aplicación (aquí es donde más trabajaremos).
++ **vendor/**: por convención aquí se guardan todas las librerías creadas por terceros.
++ **web/**: este es el directorio web raíz y contiene todos los archivos que se pueden acceder públicamente.
 
 
 Help:  
