@@ -77,25 +77,34 @@ php app/console generate:bundle
 
 ~~~
 Varias aplicaciones? "press enter" (por defecto no)
-Nombre: version\nombreBundle
-Nombre corto: nombrecortoBundle
+Nombre: version\nombreBundle (indicaremos la versión de nuestra App)
+Nombre corto: nombrecortoBundle (indicaremos un nombre corto para llamar a la App)
 Estructuras de Directorio: "press enter" (por defecto)
 Formato de Configuración Rutas: YML
 ~~~
 
-Recomendación:
+Recomendación: Vaciar la cache después de la instalación
 ~~~
-Vaciar la cache: php app/console cache:clear --env=prod --no-debug
+php app/console cache:clear --env=prod --no-debug
 ~~~
 
 #### 2. Estructura de Directorios (taxonomía de un Bundle)
 
 + **app/**: contiene la configuración de la aplicación.
+    + app/config: Está toda la configuración básica de la App (se cambiará si se hace migración).
+    + app/Resources/views: Guardaremos las plantillas twig de las diferentes vistas.
 + **bin/**: ayuda con el Debugging.
-+ **test/**: contiene una muestra.
 + **src/**: aquí se encuentra todo el código PHP de la aplicación (aquí es donde más trabajaremos).
+    + src\versionX.X\nombreBundle\Controller: Aquí estará todo la acción de nuestro software, los controladores.
+    + src\versionX.X\nombreBundle\Entity: Aquí estarán nuestras entidades (tablas de la BD).
+    + src\versionX.X\nombreBundle\Form: Aquí estarán la base de nuestros formularios relacionados con las entidades.
+    + src\versionX.X\nombreBundle\Repository: Aquí estaran los repositorios relacionados con las entidades.
+    + src\versionX.X\nombreBundle\Resources\config: Aquí estará la configuración de las rutas de las vistas y los controladores, al igual que la configuración de las entidades.
+    + src\versionX.X\nombreBundle\Resources\views: Aquí estarán las diferentes vistas (páginas web).
++ **test/**: contiene una muestra.
 + **vendor/**: por convención aquí se guardan todas las librerías creadas por terceros.
 + **web/**: este es el directorio web raíz y contiene todos los archivos que se pueden acceder públicamente.
+    + web\public: aquí alojaremos los diferentes elementos CSS y Javascript
 
 
 Help:  
