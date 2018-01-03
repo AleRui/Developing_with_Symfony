@@ -5,21 +5,27 @@
 
 1. Instalar **Xamp** (Entorno de Desarrollo: Apache + MariaDB + PHP + Perl)
 	Windows - IOS - Linux: https://www.apachefriends.org/es/download.html
-
-<div
-	<a href="https://getcomposer.org/" target="_blank">
-		<img src="https://getcomposer.org/img/logo-composer-transparent2.png" width="150">
-		<br><p>Composer</p>
-	</a>
-</div>
-
-2. Instalar **Composer**: https://getcomposer.org/
-"Librería que gestiona las dependencias de los proyectos PHP"
-Linux / Unix / OSX: Comandos en: https://getcomposer.org/download/
-Windows:
-    1 - Descargar instalador y ejecutar.
-    2 - Buscar carpeta de xamp donde está php y seleccionar: php.exe
-    3 - Comprobar instalación: Abrir Consola y ejecutar: "composer".
+<table>
+	<tr>
+		<td>
+			<div
+				<a href="https://getcomposer.org/" target="_blank">
+					<img src="https://getcomposer.org/img/logo-composer-transparent2.png" width="150">
+					<br><p>Composer</p>
+				</a>
+			</div>
+		</td>
+		<td>
+			2. Instalar **Composer**: https://getcomposer.org/
+			"Librería que gestiona las dependencias de los proyectos PHP"
+			Linux / Unix / OSX: Comandos en: https://getcomposer.org/download/
+			Windows:
+			    1 - Descargar instalador y ejecutar.
+			    2 - Buscar carpeta de xamp donde está php y seleccionar: php.exe
+			    3 - Comprobar instalación: Abrir Consola y ejecutar: "composer".
+		</td>
+	</tr>
+</table>
 
 3. Instalar Symfony por consola (by Composer): https://symfony.com/download
     1 - Ir a la rut (Path): "C:\xampp\htdocs\Symfony"
