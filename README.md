@@ -10,17 +10,17 @@
 "Librería que gestiona las dependencias de los proyectos PHP"
 Linux / Unix / OSX: Comandos en: https://getcomposer.org/download/
 Windows:
-	1 - Descargar instalador y ejecutar.
+	 1 - Descargar instalador y ejecutar.
 	2 - Buscar carpeta de xamp donde está php y seleccionar: php.exe
 	3 - Comprobar instalación: Abrir Consola y ejecutar: "composer".
 
 3. Instalar Symfony por consola (by Composer): https://symfony.com/download
-	1 - Ir a la rut (Path): "C:\xampp\htdocs\Symfony"
+	 1 - Ir a la rut (Path): "C:\xampp\htdocs\Symfony"
 	2 - Escribir comando: _(La versión usada es la 2.8)_
 	~~~
 	composer create-project symfony/framework-standard-edition my_project_name "2.8.*
 	~~~
-		* Database? "press enter" (por defecto)
+		 * Database? "press enter" (por defecto)
 		* Database Port? "press enter" (por defecto)
 		* Database Name? "Puesto por el usuario" ("nombre_del_proyecto")
 		* Root? "press enter" (por defecto)
@@ -36,7 +36,7 @@ Windows:
 	~~~
 	php app/console generate:bundle
 	~~~
-	* Varias aplicaciones? "press enter" (por defecto no)
+	 * Varias aplicaciones? "press enter" (por defecto no)
 	* Nombre: version\nombreBundle
 	* Nombre corto: nombrecortoBundle
 	* Estructuras de Directorio: "press enter" (por defecto)
