@@ -95,12 +95,12 @@ php app/console cache:clear --env=prod --no-debug
     + app/Resources/views: Guardaremos las plantillas twig de las diferentes vistas.
 + **bin/**: ayuda con el Debugging.
 + **src/**: aquí se encuentra todo el código PHP de la aplicación (aquí es donde más trabajaremos).
-    + src\versionX.X\nombreBundle\Controller: Aquí estará todo la acción de nuestro software, los controladores.
-    + src\versionX.X\nombreBundle\Entity: Aquí estarán nuestras entidades (tablas de la BD).
-    + src\versionX.X\nombreBundle\Form: Aquí estarán la base de nuestros formularios relacionados con las entidades.
-    + src\versionX.X\nombreBundle\Repository: Aquí estaran los repositorios relacionados con las entidades.
-    + src\versionX.X\nombreBundle\Resources\config: Aquí estará la configuración de las rutas de las vistas y los controladores, al igual que la configuración de las entidades.
-    + src\versionX.X\nombreBundle\Resources\views: Aquí estarán las diferentes vistas (páginas web).
+    + src\versionX.X\nombreBundle\/**Controller**: Aquí estará todo la acción de nuestro software, los controladores.
+    + src\versionX.X\nombreBundle\/**Entity**: Aquí estarán nuestras entidades (tablas de la BD).
+    + src\versionX.X\nombreBundle\/**Form**: Aquí estarán la base de nuestros formularios relacionados con las entidades.
+    + src\versionX.X\nombreBundle\/**Repository**: Aquí estaran los repositorios relacionados con las entidades.
+    + src\versionX.X\nombreBundle\Resources\/**config**: Aquí estará la configuración de las rutas de las vistas y los controladores, al igual que la configuración de las entidades.
+    + src\versionX.X\nombreBundle\Resources\/**views**: Aquí estarán las diferentes vistas (páginas web).
 + **test/**: contiene una muestra.
 + **vendor/**: por convención aquí se guardan todas las librerías creadas por terceros.
 + **web/**: este es el directorio web raíz y contiene todos los archivos que se pueden acceder públicamente.
