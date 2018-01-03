@@ -6,6 +6,13 @@
 1. Instalar **Xamp** (Entorno de Desarrollo: Apache + MariaDB + PHP + Perl)
 	Windows - IOS - Linux: https://www.apachefriends.org/es/download.html
 
+<div
+	<a href="https://getcomposer.org/" target="_blank">
+		<img src="https://getcomposer.org/img/logo-composer-transparent2.png" width="150">
+		<br><p>Composer</p>
+	</a>
+</div>
+
 2. Instalar **Composer**: https://getcomposer.org/
 "Librería que gestiona las dependencias de los proyectos PHP"
 Linux / Unix / OSX: Comandos en: https://getcomposer.org/download/
