@@ -17,23 +17,21 @@
 		</td>
 		<td>
 			<div>
-				2. Instalar **Composer**: https://getcomposer.org/  
-				_"Librería que gestiona las dependencias de los proyectos PHP"_  
-				Linux / Unix / OSX: Comandos en: https://getcomposer.org/download/  
-				Windows:  
-				    1 - Descargar instalador y ejecutar.  
-				    2 - Buscar carpeta de xamp donde está php y seleccionar: php.exe  
-				    3 - Comprobar instalación: Abrir Consola y ejecutar: "composer".  
+				2. Instalar <b>Composer</b>: https://getcomposer.org/<br>
+				<i>"Librería que gestiona las dependencias de los proyectos PHP"</i><br>
+				Linux / Unix / OSX: Comandos en: https://getcomposer.org/download/<br>
+				<ul>Windows:
+				    <li>1 - Descargar instalador y ejecutar.</li>
+				    <li>2 - Buscar carpeta de xamp donde está php y seleccionar: php.exe</li>
+				    <li>3 - Comprobar instalación: Abrir Consola y ejecutar: "composer".</li>
     	</div>
     </td>
 	</tr>
 </table>
 
 3. Instalar Symfony por consola (by Composer): https://symfony.com/download
-
     1 - Ir a la rut (Path): "C:\xampp\htdocs\Symfony"
     2 - Escribir comando: _(La versión usada es la 2.8)_
-
 	~~~
 	composer create-project symfony/framework-standard-edition my_project_name "2.8.*
 	~~~
