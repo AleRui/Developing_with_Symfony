@@ -16,18 +16,19 @@
 			</div>
 		</td>
 		<td>
-			2. Instalar **Composer**: https://getcomposer.org/
+			2. Instalar **Composer**: https://getcomposer.org/  
 
-			_"Librería que gestiona las dependencias de los proyectos PHP"_
+			_"Librería que gestiona las dependencias de los proyectos PHP"_  
 
-			Linux / Unix / OSX: Comandos en: https://getcomposer.org/download/
+			Linux / Unix / OSX: Comandos en: https://getcomposer.org/download/  
 
-			Windows:
-			    1 - Descargar instalador y ejecutar.
-			    2 - Buscar carpeta de xamp donde está php y seleccionar: php.exe
-			    3 - Comprobar instalación: Abrir Consola y ejecutar: "composer".
+			Windows:  
+			    1 - Descargar instalador y ejecutar.  
+			    2 - Buscar carpeta de xamp donde está php y seleccionar: php.exe  
+			    3 - Comprobar instalación: Abrir Consola y ejecutar: "composer".  
 
-		</td>
+  
+    </td>
 	</tr>
 </table>
 
